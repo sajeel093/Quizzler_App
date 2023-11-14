@@ -38,7 +38,7 @@ class _QuizPageState extends State<QuizPage> {
         if (quiz.isFinished() == true) {
           Alert(
             context: context,
-            title: 'Finished!',
+            title: ' khatam hogaya Finished!',
             desc: 'You\'ve reached the end of the quiz.',
           ).show();
 
